@@ -16,7 +16,6 @@ let studentPetya = {
         dad: "Вася",
     },
 };
-let arrayKolya = [studentKolya.Name, studentKolya.Age, studentKolya.female, studentKolya.parents.mom,studentKolya.parents.dad];
-console.log(arrayKolya);
-let arrayPetya = [studentPetya.Name, studentPetya.Age, studentPetya.female, studentPetya.parents.mom,studentPetya.parents.dad];
-console.log(arrayPetya);
+let arrayStydents = [studentKolya, studentPetya];
+console.log(arrayStydents);
+
